@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F14A8BD1E16580F00526A02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F14A8BC1E16580F00526A02 /* main.m */; };
+		4F14A8C01E16580F00526A02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F14A8BF1E16580F00526A02 /* AppDelegate.m */; };
+		4F14A8C31E16580F00526A02 /* PhotoFormController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F14A8C21E16580F00526A02 /* PhotoFormController.m */; };
+		4F14A8C61E16580F00526A02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F14A8C41E16580F00526A02 /* Main.storyboard */; };
+		4F14A8C81E16580F00526A02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F14A8C71E16580F00526A02 /* Assets.xcassets */; };
+		4F14A8CB1E16580F00526A02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F14A8C91E16580F00526A02 /* LaunchScreen.storyboard */; };
+		4F14A8D61E16580F00526A02 /* PhotoFormTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F14A8D51E16580F00526A02 /* PhotoFormTests.m */; };
+		4F14A8E11E16580F00526A02 /* PhotoFormUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F14A8E01E16580F00526A02 /* PhotoFormUITests.m */; };
+		4F14A8FB1E16594900526A02 /* FormLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F14A8F01E16594900526A02 /* FormLayout.m */; };
+		4F14A8FC1E16594900526A02 /* FormLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F14A8F01E16594900526A02 /* FormLayout.m */; };
+		4F14A8FD1E16594900526A02 /* FormLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F14A8F01E16594900526A02 /* FormLayout.m */; };
+		4F14A9041E16594900526A02 /* FormHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F14A8F61E16594900526A02 /* FormHeader.m */; };
+		4F14A9051E16594900526A02 /* FormHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F14A8F61E16594900526A02 /* FormHeader.m */; };
+		4F14A9061E16594900526A02 /* FormHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F14A8F61E16594900526A02 /* FormHeader.m */; };
+		4F14A9071E16594900526A02 /* FormHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F14A8F71E16594900526A02 /* FormHeader.xib */; };
+		4F14A9081E16594900526A02 /* FormHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F14A8F71E16594900526A02 /* FormHeader.xib */; };
+		4F14A9091E16594900526A02 /* FormHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F14A8F71E16594900526A02 /* FormHeader.xib */; };
+		4F14A90A1E16594900526A02 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F14A8F91E16594900526A02 /* PhotoCell.m */; };
+		4F14A90B1E16594900526A02 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F14A8F91E16594900526A02 /* PhotoCell.m */; };
+		4F14A90C1E16594900526A02 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F14A8F91E16594900526A02 /* PhotoCell.m */; };
+		4F14A90D1E16594900526A02 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F14A8FA1E16594900526A02 /* PhotoCell.xib */; };
+		4F14A90E1E16594900526A02 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F14A8FA1E16594900526A02 /* PhotoCell.xib */; };
+		4F14A90F1E16594900526A02 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F14A8FA1E16594900526A02 /* PhotoCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F14A8D21E16580F00526A02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F14A8B01E16580F00526A02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F14A8B71E16580F00526A02;
+			remoteInfo = PhotoForm;
+		};
+		4F14A8DD1E16580F00526A02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F14A8B01E16580F00526A02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F14A8B71E16580F00526A02;
+			remoteInfo = PhotoForm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F14A8B81E16580F00526A02 /* PhotoForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F14A8BC1E16580F00526A02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F14A8BE1E16580F00526A02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F14A8BF1E16580F00526A02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F14A8C11E16580F00526A02 /* PhotoFormController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoFormController.h; sourceTree = "<group>"; };
+		4F14A8C21E16580F00526A02 /* PhotoFormController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoFormController.m; sourceTree = "<group>"; };
+		4F14A8C51E16580F00526A02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F14A8C71E16580F00526A02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F14A8CA1E16580F00526A02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F14A8CC1E16580F00526A02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F14A8D11E16580F00526A02 /* PhotoFormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoFormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F14A8D51E16580F00526A02 /* PhotoFormTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoFormTests.m; sourceTree = "<group>"; };
+		4F14A8D71E16580F00526A02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F14A8DC1E16580F00526A02 /* PhotoFormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoFormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F14A8E01E16580F00526A02 /* PhotoFormUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoFormUITests.m; sourceTree = "<group>"; };
+		4F14A8E21E16580F00526A02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F14A8EF1E16594900526A02 /* FormLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormLayout.h; sourceTree = "<group>"; };
+		4F14A8F01E16594900526A02 /* FormLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormLayout.m; sourceTree = "<group>"; };
+		4F14A8F51E16594900526A02 /* FormHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormHeader.h; sourceTree = "<group>"; };
+		4F14A8F61E16594900526A02 /* FormHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormHeader.m; sourceTree = "<group>"; };
+		4F14A8F71E16594900526A02 /* FormHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FormHeader.xib; sourceTree = "<group>"; };
+		4F14A8F81E16594900526A02 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		4F14A8F91E16594900526A02 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		4F14A8FA1E16594900526A02 /* PhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F14A8B51E16580F00526A02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F14A8CE1E16580F00526A02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F14A8D91E16580F00526A02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F14A8AF1E16580F00526A02 = {
+			isa = PBXGroup;
+			children = (
+				4F14A8BA1E16580F00526A02 /* PhotoForm */,
+				4F14A8D41E16580F00526A02 /* PhotoFormTests */,
+				4F14A8DF1E16580F00526A02 /* PhotoFormUITests */,
+				4F14A8B91E16580F00526A02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F14A8B91E16580F00526A02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F14A8B81E16580F00526A02 /* PhotoForm.app */,
+				4F14A8D11E16580F00526A02 /* PhotoFormTests.xctest */,
+				4F14A8DC1E16580F00526A02 /* PhotoFormUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F14A8BA1E16580F00526A02 /* PhotoForm */ = {
+			isa = PBXGroup;
+			children = (
+				4F14A8BE1E16580F00526A02 /* AppDelegate.h */,
+				4F14A8BF1E16580F00526A02 /* AppDelegate.m */,
+				4F14A8C11E16580F00526A02 /* PhotoFormController.h */,
+				4F14A8C21E16580F00526A02 /* PhotoFormController.m */,
+				4F14A8EE1E16594900526A02 /* Layout */,
+				4F14A8F11E16594900526A02 /* Views */,
+				4F14A8C41E16580F00526A02 /* Main.storyboard */,
+				4F14A8C71E16580F00526A02 /* Assets.xcassets */,
+				4F14A8C91E16580F00526A02 /* LaunchScreen.storyboard */,
+				4F14A8CC1E16580F00526A02 /* Info.plist */,
+				4F14A8BB1E16580F00526A02 /* Supporting Files */,
+			);
+			path = PhotoForm;
+			sourceTree = "<group>";
+		};
+		4F14A8BB1E16580F00526A02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F14A8BC1E16580F00526A02 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F14A8D41E16580F00526A02 /* PhotoFormTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F14A8D51E16580F00526A02 /* PhotoFormTests.m */,
+				4F14A8D71E16580F00526A02 /* Info.plist */,
+			);
+			path = PhotoFormTests;
+			sourceTree = "<group>";
+		};
+		4F14A8DF1E16580F00526A02 /* PhotoFormUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F14A8E01E16580F00526A02 /* PhotoFormUITests.m */,
+				4F14A8E21E16580F00526A02 /* Info.plist */,
+			);
+			path = PhotoFormUITests;
+			sourceTree = "<group>";
+		};
+		4F14A8EE1E16594900526A02 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				4F14A8EF1E16594900526A02 /* FormLayout.h */,
+				4F14A8F01E16594900526A02 /* FormLayout.m */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		4F14A8F11E16594900526A02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F14A8F51E16594900526A02 /* FormHeader.h */,
+				4F14A8F61E16594900526A02 /* FormHeader.m */,
+				4F14A8F71E16594900526A02 /* FormHeader.xib */,
+				4F14A8F81E16594900526A02 /* PhotoCell.h */,
+				4F14A8F91E16594900526A02 /* PhotoCell.m */,
+				4F14A8FA1E16594900526A02 /* PhotoCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F14A8B71E16580F00526A02 /* PhotoForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F14A8E51E16580F00526A02 /* Build configuration list for PBXNativeTarget "PhotoForm" */;
+			buildPhases = (
+				4F14A8B41E16580F00526A02 /* Sources */,
+				4F14A8B51E16580F00526A02 /* Frameworks */,
+				4F14A8B61E16580F00526A02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoForm;
+			productName = PhotoForm;
+			productReference = 4F14A8B81E16580F00526A02 /* PhotoForm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F14A8D01E16580F00526A02 /* PhotoFormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F14A8E81E16580F00526A02 /* Build configuration list for PBXNativeTarget "PhotoFormTests" */;
+			buildPhases = (
+				4F14A8CD1E16580F00526A02 /* Sources */,
+				4F14A8CE1E16580F00526A02 /* Frameworks */,
+				4F14A8CF1E16580F00526A02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F14A8D31E16580F00526A02 /* PBXTargetDependency */,
+			);
+			name = PhotoFormTests;
+			productName = PhotoFormTests;
+			productReference = 4F14A8D11E16580F00526A02 /* PhotoFormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F14A8DB1E16580F00526A02 /* PhotoFormUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F14A8EB1E16580F00526A02 /* Build configuration list for PBXNativeTarget "PhotoFormUITests" */;
+			buildPhases = (
+				4F14A8D81E16580F00526A02 /* Sources */,
+				4F14A8D91E16580F00526A02 /* Frameworks */,
+				4F14A8DA1E16580F00526A02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F14A8DE1E16580F00526A02 /* PBXTargetDependency */,
+			);
+			name = PhotoFormUITests;
+			productName = PhotoFormUITests;
+			productReference = 4F14A8DC1E16580F00526A02 /* PhotoFormUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F14A8B01E16580F00526A02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhao;
+				TargetAttributes = {
+					4F14A8B71E16580F00526A02 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5DN27BVAJ9;
+						ProvisioningStyle = Automatic;
+					};
+					4F14A8D01E16580F00526A02 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5DN27BVAJ9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4F14A8B71E16580F00526A02;
+					};
+					4F14A8DB1E16580F00526A02 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5DN27BVAJ9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4F14A8B71E16580F00526A02;
+					};
+				};
+			};
+			buildConfigurationList = 4F14A8B31E16580F00526A02 /* Build configuration list for PBXProject "PhotoForm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F14A8AF1E16580F00526A02;
+			productRefGroup = 4F14A8B91E16580F00526A02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F14A8B71E16580F00526A02 /* PhotoForm */,
+				4F14A8D01E16580F00526A02 /* PhotoFormTests */,
+				4F14A8DB1E16580F00526A02 /* PhotoFormUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F14A8B61E16580F00526A02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F14A8CB1E16580F00526A02 /* LaunchScreen.storyboard in Resources */,
+				4F14A90D1E16594900526A02 /* PhotoCell.xib in Resources */,
+				4F14A8C81E16580F00526A02 /* Assets.xcassets in Resources */,
+				4F14A8C61E16580F00526A02 /* Main.storyboard in Resources */,
+				4F14A9071E16594900526A02 /* FormHeader.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F14A8CF1E16580F00526A02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F14A90E1E16594900526A02 /* PhotoCell.xib in Resources */,
+				4F14A9081E16594900526A02 /* FormHeader.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F14A8DA1E16580F00526A02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F14A90F1E16594900526A02 /* PhotoCell.xib in Resources */,
+				4F14A9091E16594900526A02 /* FormHeader.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F14A8B41E16580F00526A02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F14A8C31E16580F00526A02 /* PhotoFormController.m in Sources */,
+				4F14A9041E16594900526A02 /* FormHeader.m in Sources */,
+				4F14A8C01E16580F00526A02 /* AppDelegate.m in Sources */,
+				4F14A8FB1E16594900526A02 /* FormLayout.m in Sources */,
+				4F14A8BD1E16580F00526A02 /* main.m in Sources */,
+				4F14A90A1E16594900526A02 /* PhotoCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F14A8CD1E16580F00526A02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F14A90B1E16594900526A02 /* PhotoCell.m in Sources */,
+				4F14A8FC1E16594900526A02 /* FormLayout.m in Sources */,
+				4F14A8D61E16580F00526A02 /* PhotoFormTests.m in Sources */,
+				4F14A9051E16594900526A02 /* FormHeader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F14A8D81E16580F00526A02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F14A90C1E16594900526A02 /* PhotoCell.m in Sources */,
+				4F14A8FD1E16594900526A02 /* FormLayout.m in Sources */,
+				4F14A8E11E16580F00526A02 /* PhotoFormUITests.m in Sources */,
+				4F14A9061E16594900526A02 /* FormHeader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F14A8D31E16580F00526A02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F14A8B71E16580F00526A02 /* PhotoForm */;
+			targetProxy = 4F14A8D21E16580F00526A02 /* PBXContainerItemProxy */;
+		};
+		4F14A8DE1E16580F00526A02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F14A8B71E16580F00526A02 /* PhotoForm */;
+			targetProxy = 4F14A8DD1E16580F00526A02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F14A8C41E16580F00526A02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F14A8C51E16580F00526A02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F14A8C91E16580F00526A02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F14A8CA1E16580F00526A02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F14A8E31E16580F00526A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F14A8E41E16580F00526A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F14A8E61E16580F00526A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5DN27BVAJ9;
+				INFOPLIST_FILE = PhotoForm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaozq.PhotoForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F14A8E71E16580F00526A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5DN27BVAJ9;
+				INFOPLIST_FILE = PhotoForm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaozq.PhotoForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F14A8E91E16580F00526A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5DN27BVAJ9;
+				INFOPLIST_FILE = PhotoFormTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaozq.PhotoFormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoForm.app/PhotoForm";
+			};
+			name = Debug;
+		};
+		4F14A8EA1E16580F00526A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5DN27BVAJ9;
+				INFOPLIST_FILE = PhotoFormTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaozq.PhotoFormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoForm.app/PhotoForm";
+			};
+			name = Release;
+		};
+		4F14A8EC1E16580F00526A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5DN27BVAJ9;
+				INFOPLIST_FILE = PhotoFormUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaozq.PhotoFormUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoForm;
+			};
+			name = Debug;
+		};
+		4F14A8ED1E16580F00526A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5DN27BVAJ9;
+				INFOPLIST_FILE = PhotoFormUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaozq.PhotoFormUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoForm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F14A8B31E16580F00526A02 /* Build configuration list for PBXProject "PhotoForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F14A8E31E16580F00526A02 /* Debug */,
+				4F14A8E41E16580F00526A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F14A8E51E16580F00526A02 /* Build configuration list for PBXNativeTarget "PhotoForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F14A8E61E16580F00526A02 /* Debug */,
+				4F14A8E71E16580F00526A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F14A8E81E16580F00526A02 /* Build configuration list for PBXNativeTarget "PhotoFormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F14A8E91E16580F00526A02 /* Debug */,
+				4F14A8EA1E16580F00526A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F14A8EB1E16580F00526A02 /* Build configuration list for PBXNativeTarget "PhotoFormUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F14A8EC1E16580F00526A02 /* Debug */,
+				4F14A8ED1E16580F00526A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F14A8B01E16580F00526A02 /* Project object */;
+}
